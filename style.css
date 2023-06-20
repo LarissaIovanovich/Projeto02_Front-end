@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  background-image: url(img/v748-toon-103.jpg);
+  background-size: cover;
+}
+
+header {
+  background: rgb(137,162,77);
+  background: linear-gradient(90deg, rgba(137,162,77,1) 0%, rgba(42,103,41,0.923406862745098) 100%);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background: rgb(137,162,77);
+  background: linear-gradient(90deg, rgba(137,162,77,1) 0%, rgba(42,103,41,0.923406862745098) 100%);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: white;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+input[type="text"],
+select {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #082b07;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #479022;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #082b07;
+}
+
+button:hover {
+  background-color: #268313;
+  border: 2px solid #082b07;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border: 2px solid #082b07;
+}
+
+li button {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+li button:hover {
+  background-color: #ccc;
+}
+
+.plastico {
+  color: red;
+}
+
+.metal {
+  color: rgb(255, 255, 0);
+}
+
+.papel {
+  color: blue;
+}
+
+.vidro {
+  color: green;
+}
+
+.organico {
+  color: brown;
+}
+
+#filtro-material {
+  width: 200px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#filtrar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#horarios-list {
+  margin-top: 20px;
+}

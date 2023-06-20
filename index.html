@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Coleta Seletiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Coleta Seletiva - Cornélio Procópio</h1>
+  </header>
+  
+  <main>
+    <h2>Cadastro de Dicas de Reciclagem</h2>
+    <form id="recycling-form">
+      <label for="material">Material:</label>
+      <select id="material">
+        <option value="plastico">Plástico</option>
+        <option value="metal">Metal</option>
+        <option value="papel">Papel</option>
+        <option value="vidro">Vidro</option>
+        <option value="organico">Orgânico</option>
+      </select>
+      <label for="dica">Dica:</label>
+      <input type="text" id="dica">
+      <button type="submit">Cadastrar</button>
+    </form>
+    
+    <h2>Lista de Dicas Cadastradas</h2>
+    <ul id="dicas-list"></ul>
+    
+    <h2>Filtro de Dicas por Material</h2>
+    <select id="filtro-material">
+      <option value="">Todos</option>
+      <option value="plastico">Plástico</option>
+      <option value="metal">Metal</option>
+      <option value="papel">Papel</option>
+      <option value="vidro">Vidro</option>
+      <option value="organico">Orgânico</option>
+    </select>
+    <button id="filtrar">Filtrar</button>
+    <ul id="dicas-filtradas"></ul>
+    
+    
+    <h2>Horários de Coleta por Bairro</h2>
+    <button id="ver-horarios">Ver Horários</button>
+    <ul id="horarios-list"></ul>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
